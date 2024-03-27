@@ -1,0 +1,187 @@
+.MuiTreeItem-label{
+    font-size: x-large !important;
+}
+.container{
+    margin: 40px auto;
+    width: 90%;
+    border-radius: 10px;
+}
+.batabaseItem{
+    width: 150px;
+    display: flex;
+    gap: 20px;
+    margin: 5px auto;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.search{
+    display: flex;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.searchText{
+    border: 1px solid lightgray;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 1px;
+}
+.searchButton{
+    border: 1px solid lightgray;
+    width: 70px;
+    height: 38px;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 5px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.clearButton{
+    border: 1px solid lightgray;
+    width: 60px;
+    height: 38px;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 5px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.tableView{
+    border: 1px solid lightgray;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.disableButton{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+  width: 100px;
+  height: 38px;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 5px;
+}
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    animation: spin 2s linear infinite;
+    margin: 40px auto;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .download{
+    display: flex;
+    gap: 10px;
+  }
+.input{
+    padding: 16px 14px;
+    width: 100%;
+    height: 50%;
+    box-sizing: content-box;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    margin: 10px;
+}
+.searchProtein{
+    padding-top: 100px;
+}
+.searchHumanProtein{
+    margin-left: 500px;
+    width: 100%;
+}
+.errorMessage{
+    color: red;
+    padding-left: 10px;
+    margin: 5px;
+}
+.footer{
+    background-color: #D2B622;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-left: 24px;
+    height: 35px;
+}
+.footerText{
+    padding-top: 10px;
+    font-weight: bold;
+}
+.homepageImg{
+    display: block;
+  
+}
+.appbarHeader{
+    position: static;
+    background-color: #D2B622 !important;
+    height:80px;
+    width: 100% !important;
+}
+@media(min-width:1340px){
+   .headerMenu{
+        padding-left: 600px;
+    }
+}
+@media(min-width:875px) and (max-width:905px){
+    .headerMenu{
+        padding-left: 100px !important;
+    }
+}
+@media(min-width:905px) and (max-width:1200px){
+    .headerMenu{
+        padding-left: 300px !important;
+    }
+}
+@media(min-width:1200px) and (max-width:1339px){
+    .headerMenu{
+        padding-left: 450px !important;
+    }
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 2px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .humanData{
+    width: 100%;
+    margin-left: 100px;
+  }
+  .publicData{
+    width: 100%;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    height: 100%;
+  }
